@@ -1,0 +1,31 @@
+{
+  "name": "wfc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.3.0",
+    "@truffle/error": "0.0.6",
+    "solhint": "^2.2.0",
+    "surya": "^0.2.11",
+    "truffle-assertions": "^0.9.1",
+    "truffle-error": "0.0.5",
+    "truffle-hdwallet-provider": "^1.0.0-web3one.5",
+    "truffle-security": "^1.5.5"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "prettier-plugin-solidity": "^1.0.0-alpha.32",
+    "solhint-plugin-prettier": "0.0.3",
+    "standard": "^14.1.0"
+  },
+  "prettier:solidity": "./node_modules/.bin/prettier --write contracts/**/*.sol"
+}
